@@ -44,11 +44,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
- #Third party
+    #Third party
     'rest_framework',
 
- #Ledgerlite
+    #Ledgerlite
     'apps.accounts',
+    'apps.businesses',
+    'apps.customers',
 ]
 
 MIDDLEWARE = [
